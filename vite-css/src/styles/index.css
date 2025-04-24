@@ -1,0 +1,11 @@
+@import url("@styles/other.css");
+
+:root {
+    --main-bg-color: blue;
+}
+
+.root {
+    color: var(--main-bg-color);
+    font-size: 20px;
+    @console.log Hello PostCss!
+}
